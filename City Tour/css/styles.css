@@ -1,0 +1,182 @@
+@font-face {
+  font-family: 'PTSans-Bold';
+  src: url('../fonts/PTSans-Bold/PTSans-Bold.eot?#iefix') format('embedded-opentype'),
+  url('../fonts/PTSans-Bold/PTSans-Bold.woff') format('woff'),
+  url('../fonts/PTSans-Bold/PTSans-Bold.ttf')  format('truetype'), url('PTSans-Bold.svg#PTSans-Bold') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+@font-face {
+  font-family: 'PTSans-Regular';
+  src: url('../fonts/PTSans-Regular/PTSans-Regular.eot?#iefix') format('embedded-opentype'),
+  url('../fonts/PTSans-Regular/PTSans-Regular.woff') format('woff'),
+  url('../fonts/PTSans-Regular/PTSans-Regular.ttf')  format('truetype'),
+  url('../fonts/PTSans-Regular/PTSans-Regular.svg#PTSans-Regular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@media (max-width:575px)
+{
+
+
+  div.container
+  {
+    background-color: rgba(255, 0, 0, 0.5);
+  }
+
+  h1.main_heading
+  {
+    text-align: center;
+  }
+
+}
+
+@media (min-width:576px) and (max-width:767px)
+{
+  div.container
+  {
+    background-color: rgba(172, 217, 150,0.5);
+  }
+
+  h1.main_heading
+  {
+    color: black;
+  }
+
+  li
+  {
+    color: black;
+  }
+
+  p.about, p.about2, p.places
+  {
+    color: black;
+  }
+}
+
+@media (min-width:768px) and (max-width:991px)
+{
+  div.container
+  {
+    background-color: rgba(172, 217, 150,0.5);
+  }
+
+  h1.main_heading
+  {
+    color: black;
+    font-size: 2.25rem;
+  }
+
+  li
+  {
+    color: black;
+    font-size: 1.125rem;
+  }
+
+  p.about, p.about2, p.places
+  {
+    color: black;
+    font-size: 	1.125rem;
+  }
+}
+
+@media (min-width:992px) and (max-width:1199px)
+{
+
+  div.container
+  {
+    background-color: rgba(87, 249, 216,0.5);
+  }
+
+  h1.main_heading
+  {
+    color: black;
+    font-size: 3rem;
+  }
+
+  li
+  {
+    color: black;
+    font-size: 1.625rem;
+  }
+
+  p.about, p.about2, p.places
+  {
+    color: black;
+    font-size: 	1.625rem;
+  }
+
+}
+
+@media (min-width:1200px) {
+
+  div.container
+  {
+    background-color: rgba(250, 236, 1,0.5);
+  }
+
+  h1.main_heading
+  {
+    color: black;
+    font-size: 4rem;
+  }
+
+  li
+  {
+    color: black;
+    font-size: 2rem;
+  }
+
+  p.about, p.about2
+  {
+    color: black;
+    font-size: 2rem;
+  }
+
+  p.places
+  {
+    color: black;
+    font-size: 2.5rem;
+  }
+}
+.wrapper
+{
+  background: url(../images/city.jpg) no-repeat;
+  background-size: cover;
+  height:
+}
+
+.container
+{
+  background-color: rgba(0,0,0,0.6);
+}
+
+.main_heading
+{
+  color: #ffffff;
+  margin-bottom: 1.2em;
+  padding-top: 1.5em;
+  font-family: 'PTSans-Bold';
+}
+
+p, ul
+{
+  color: #ffffff;
+  font-family: 'PTSans-Regular';
+  font-size: 1.125em;
+}
+
+ul.list_items
+{
+  margin-top: 1.5em;
+  padding-bottom: 7em;
+}
+
+img.pictures
+{
+  width: 350px;
+  height: 200px;
+}
