@@ -1,0 +1,25 @@
+div.ar1
+{
+  background-color: aqua;
+}
+
+div.ar2
+{
+  background-color:#EAB543;
+}
+
+div.ar3
+{
+  background-color: #FEA47F;
+}
+
+.rowheight
+{
+  background-color: black;
+  height: 200px;
+}
+
+.container-fluid
+{
+  background-color: black;
+}
