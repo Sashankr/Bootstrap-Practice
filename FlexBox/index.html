@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- Latest compiled and minified CSS -->
+  <!-- Latest compiled and minified CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/styles.css">
+  <title>Document</title>
+</head>
+
+<body>
+
+  <h1 class="display-3">Flex Box</h1>
+
+  <div class="div alignItems">
+
+    <div class="container-fluid">
+      <h2 class="text-light mb-5 mt-5">Align items</h2>
+      
+      <!--If we want to align all the items in a similar way we can add the align-items to the row class 
+        1. align-items-start: All the columns are aligned to the top of the division
+        2. align-items-center: All the columns are aligned to the center of the division
+        3. align-items-start: All the columns are aligned to the end of the division 
+      -->
+      <div class="row rowheight align-items-end">
+        <div class="col ar1">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat mollitia, blanditiis quidem dolore ab
+          voluptates!
+        </div>
+
+        <div class="col ar2">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat mollitia, blanditiis quidem dolore ab
+          voluptates!
+        </div>
+
+        <div class="col ar3">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat mollitia, blanditiis quidem dolore ab
+          voluptates!
+        </div>
+      </div>
+
+      <br>
+      <br>
+      
+      <!--To align columns individually in a division we use align self class
+        align-self-start: align the column in the start of the division
+        align-self-center: align column in the center of a division
+        align-self-end: align column at the end of a division
+      -->
+      <div class="row rowheight">
+        <div class="col ar1 align-self-start">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat mollitia, blanditiis quidem dolore ab
+          voluptates!
+        </div>
+
+        <div class="col ar2 align-self-center">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat mollitia, blanditiis quidem dolore ab
+          voluptates!
+        </div>
+
+        <div class="col ar3 align-self-end">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat mollitia, blanditiis quidem dolore ab
+          voluptates!
+
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+  <div class="justifyContent mt-5 mb-5">
+    <h2>Justify Content</h2>
+    <div class="container-fluid">
+      <!--Justify content properties
+        justify-content-start: Everything is aligned from left
+        justify-content-center: Everything is aligned in center
+        justify-content-end: Everything is aligned to right
+        justify-content-between: Equal spacing is given between the columns.
+        justify-content-around: Each column is in between two emtpy spaces
+      -->
+      <div class="row justify-content-between ">
+        <div class="col-md-2 ar1">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat mollitia, blanditiis quidem dolore ab
+          voluptates!
+        </div>
+
+        <div class="col-md-2 ar2">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat mollitia, blanditiis quidem dolore ab
+          voluptates!
+        </div>
+
+        <div class="col-md-2 ar3">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat mollitia, blanditiis quidem dolore ab
+          voluptates!
+
+        </div>
+      </div>
+    </div>
+  </div>
+
+    <!--
+      Ordering of content can be done using order class
+      order can take a value from 0 to 11.
+      order-0 : Place a column in first place
+      order-1: Place a column in second place
+      and so on....
+    -->
+  <div class="justifyContentOrder mt-5 mb-5">
+    <h2>Flex Properties</h2>
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-md-2 order-3 ar1">
+          Col1<br>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat mollitia, blanditiis quidem dolore ab
+          voluptates!
+        </div>
+
+        <div class="col-md-3 order-0 ar2">
+          Col2<br>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat mollitia, blanditiis quidem dolore ab
+          voluptates!
+        </div>
+
+        <div class="col-md-2 ar3 flex-start">
+          Col3<br>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat mollitia, blanditiis quidem dolore ab
+          voluptates!
+
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!--To change the direction of columns from horizontal to vertical orientation we add flex-column on the row class so that the columns stack on top of each other
+  -->
+  <div class="flexDirectionToColumn mt-5 mb-5">
+    <h2>Flex Direction To Column</h2>
+    <div class="container-fluid">
+      <div class="row flex-column">
+        <div class="col-md  ar1">
+          Col1<br>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat mollitia, blanditiis quidem dolore ab
+          voluptates!
+        </div>
+
+        <div class="col-md ar2">
+          Col2<br>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat mollitia, blanditiis quidem dolore ab
+          voluptates!
+        </div>
+
+        <div class="col-md ar3">
+          Col3<br>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat mollitia, blanditiis quidem dolore ab
+          voluptates!
+
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- jQuery library -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+  <!-- Popper JS -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+
+  <!-- Latest compiled JavaScript -->
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+</body>
+
+</html>
